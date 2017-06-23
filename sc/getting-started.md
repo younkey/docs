@@ -96,3 +96,10 @@ public class Contract1 : FunctionCode
 
 现在，你已经完成了小蚁智能合约开发环境的配置，智能合约编写方法请参考 [小蚁智能合约教程](tutorial.md)
 
+===
+补充一个Win7报错的处理方式
+“AntShares.Compiler.MSIL”Debug 可以，但是 发布运行会出这个错，
+“api-ms-win-core-console-l2-1-0.dll” 找不到指定模块。
+这个dll 看说明对应的是Win8的某个库，搜索下下载下来：安装到“C:\Windows\System32”就ok了
+
+
